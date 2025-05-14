@@ -1,0 +1,60 @@
+{
+  "NIdNoContrato": "numero",
+  "estadoContrato": "char",
+  "NoEmpleado": "numero",
+  "info": {
+    "empresa":{
+        "idempresa":"char",
+        "iddivision":"char",
+        "idsucursal":"char",
+        "empresaComplementaria":"string"
+    },
+    "detalle":{
+        "TipoNomina":"string",
+        "TipoContrato":"string",
+        "sector":"string",
+        "CodigoIESS":"string",
+        "CodigoMRL":"string",
+        "cargo":"string",
+        "fechaIngrso":"date",
+        "fechaSalida":"date",
+        "Preliquidado":"string",
+        "ImptoRentaAsumido":"boolean",
+        "ControlVacacion":"char",
+        "MostrarNominaPreLiquidado":"char",
+        "CalcularRubrosLiq":"char"
+    },
+    "Finansas":{
+        "tipoFormaPago":"string",
+        "idBancoDebito":"string",
+        "bancos":[
+            {
+                "idBanco":"numero",
+                "tipoCuenta":"numero",
+                "numeroCuenta":"numero",
+                "estadoCuenta":"boolean"
+            }
+        ]
+    },
+    "adicionales":{
+        "idProveedor":"",
+        "idVendedor":"",
+        "ModoCalculoHoras":"string",
+        "HorasExtra":"boolean",
+        "HorasExtraMaxima":"numero",
+        "CalculaAvance":"boolean",
+        "AfeptaDistribucionCCosto":"char",
+        "Incentivo":"char",
+        "fechaHistorico":"date"
+    }
+  },
+  "Auditoria": {
+    "usuarioIngreso": "string",
+    "estacionIngreso": "string",
+    "fechaIngreso": "date",
+    "usuarioModifica": "string",
+    "estacionModifica": "string",
+    "fechaModifica": "date",
+    "modifica": "string"
+  }
+}
