@@ -1,0 +1,114 @@
+{
+    "NoEmpleado": "numero",
+    "estadoEmpleado":"char",
+    "info": {
+        "personal": {
+            "primerNombre": "string",
+            "segundoNombre": "string",
+            "primerApellido": "string",
+            "segundoApellido": "string",
+            "tipoDocumento":"char",
+            "numeroDocumento":"string",
+            "libretaMilitar":"string",
+            "fechaNacimiento": "string",
+            "estadoCivil": "string",
+            "sexo": "string",
+            "nivelEducacion": "string",
+            "fechaIngreso":"date"
+        },
+        "demografico": {
+            "nacimiento": {
+                "nacionalidad": "string",
+                "lugarNacimiento": "string"
+            },
+            "residencia": {
+                "provincia": "string",
+                "canton": "string",
+                "parroquia": "string",
+                "sector": "string",
+                "direccion": "string",
+                "tipoVivienda": "string",
+                "NumerosVivienda": "string"
+            }
+        },
+        "contacto": {
+            "telefono": "string",
+            "celular": "string",
+            "email": "string",
+            "emailPersonal": "string",
+            "referencias": [
+                {
+                    "contacto": "string",
+                    "direccionContacto": "string",
+                    "telefono": "string",
+                    "telefono2": "string"
+                }
+            ]
+        },
+        "descriptivos": {
+            "estatura": "decimal",
+            "peso": "decimal",
+            "tallaCadera": "decimal",
+            "tallaCintura": "decimal",
+            "tallaCuello":"decimal",
+            "tallaEspalda":"decimal",
+            "tallaPecho":"decimal",
+            "tallaPie": "decimal",
+            "colorOjos": "string",
+            "colorPiel": "string"
+        },
+        "cargas": {
+            "1": {
+                "carga": "string",
+                "sexo": "string",
+                "fechaNacimiento": "string",
+                "documento": "string",
+                "Apellido": "string",
+                "nombre": "string",
+                "discapacidad": "string"
+            },
+            "2": {
+               "carga": "string",
+                "sexo": "string",
+                "fechaNacimiento": "string",
+                "documento": "string",
+                "Apellido": "string",
+                "nombre": "string",
+                "discapacidad": "string"
+            }
+        },
+        "salud": {
+            "tipoSangre": "string",
+            "FichaMedica":"char",
+            "discapacitado":"",
+            "tipoDiscapacidad": {
+                "conadis": "string",
+                "porcentageDiscapacidad": "numero",
+                "DescripcionDiscapacidad":"string"
+            },
+            "embarazada":"string",
+            "certificadoSalud":"char",
+            "idCertificadoSalud":"string",
+            "descripcionCertificadoSalud":"string",
+            "fechaCertificadoSalud":"date"
+        },
+        "otros":{
+            "tipoLicenciaConducir":"string",
+            "vencimientoLicenciaConducir":"date",
+            "JefeInmediato":"numero",
+            "Marcacion":"char",
+            "Reloj":"string",
+            "MultiEmpresa":"char",
+            "Observacion":"string",
+            "Maquinaria":"string",
+        }
+    },
+    "Auditoria":{
+        "usuarioIngreso":"string",
+        "estacionIngreso":"string",
+        "fechaIngreso":"date",
+        "usuarioModifica":"string",
+        "estacionModifica":"string",
+        "modifica":"date"
+    }
+}
