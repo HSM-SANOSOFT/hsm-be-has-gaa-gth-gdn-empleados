@@ -34,7 +34,25 @@
                 "numeroCuenta":"numero",
                 "estadoCuenta":"boolean"
             }
-        ]
+        ],
+        "Sueldo":{
+            "area":"string",
+            "costo":"string",
+            "subcosto":"string",
+            "sueldo":"string",
+            "sueldoDiario":"string",
+            "sueldoHora":"string",
+            "estado":"char",
+            "historialsalarial":[
+                {   
+                    "tipo":"string",
+                    "area":"string",
+                    "fecha":"string",
+                    "sueldo":"string",
+                    "Observacion":"string"
+                }
+            ]
+        }
     },
     "adicionales":{
         "idProveedor":"",
@@ -46,7 +64,28 @@
         "AfeptaDistribucionCCosto":"char",
         "Incentivo":"char",
         "fechaHistorico":"date"
-    }
+    },
+    "conceptos":[
+        {
+            "secuencia":"numero",
+            "concepto":"string",
+            "desglose":"string",
+            "valorConcepto":"string",
+            "tipoConcepto":"string"
+        }
+    ],
+    "cuentascontables":[
+        {
+            "idCuenta":"numero",
+            "tipoCuenta":"string",
+            "idTipoAuxiliar":"numero",
+            "Auxiliar":"string",
+            "costo":"string",
+            "subcosto":"string",
+            "concepto":"string",
+            "desglose":"string"
+        }
+    ]
   },
   "Auditoria": {
     "usuarioIngreso": "string",
